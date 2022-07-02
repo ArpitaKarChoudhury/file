@@ -1,0 +1,5 @@
+a=open("python.txt","w")
+a.write("hello!i am arpita")
+a.close()
+a=open("python.txt")
+print(a.read())

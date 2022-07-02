@@ -1,0 +1,5 @@
+a=open("place.txt","w")
+a.write("tripura")
+a.close()
+a=open("place.txt","r")
+print(a.read())
